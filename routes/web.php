@@ -15,9 +15,9 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::get('/', 'App\Http\Controllers\SiswaController@index');
-Route::get('/beasiswa/add', 'App\Http\Controllers\SiswaController@add');
-Route::post('/beasiswa/tambah', 'App\Http\Controllers\SiswaController@tambah');
-Route::get('/beasiswa/edit/{id}', 'App\Http\Controllers\SiswaController@edit');
-Route::post('/beasiswa/update', 'App\Http\Controllers\SiswaController@update');
-Route::get('/beasiswa/del/{id}', 'App\Http\Controllers\SiswaController@del');
+Route::get('/', 'App\Http\Controllers\BukuController@index');
+Route::get('/buku/add', 'App\Http\Controllers\BukuController@add');
+Route::post('/buku/tambah', 'App\Http\Controllers\BukuController@tambah');
+Route::get('/buku/edit/{id}', 'App\Http\Controllers\BukuController@edit');
+Route::post('/buku/update', 'App\Http\Controllers\BukuController@update');
+Route::get('/buku/del/{id}', 'App\Http\Controllers\BukuController@del');
